@@ -53,7 +53,6 @@ __vad.js__ is a small Javascript library for voice activity detection.
 
 
 ### Tested - Browser
-* Chrome 32+
 * Firefox 45.0a1+
 
 ##Author
