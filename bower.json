@@ -1,0 +1,24 @@
+{
+  "name": "vad.js",
+  "homepage": "https://github.com/kdavis-mozilla/vad.js",
+  "authors": [
+    "Kelly Davis <kdavis@mozilla.com>"
+  ],
+  "description": "Voice activity detection in Javascript",
+  "main": "lib/vad.js",
+  "moduleType": [],
+  "keywords": [
+    "vad",
+    "voice",
+    "activity",
+    "detection"
+  ],
+  "license": "BSD-3-Clause",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
