@@ -16,9 +16,6 @@ __vad.js__ is a small Javascript library for voice activity detection.
 <body>
 <script type="text/javascript" src="lib/vad.js"></script>
 <script type="text/javascript">
-  // Declare vad
-  var vad = null;
-  
   // Create AudioContext
   window.AudioContext = window.AudioContext || window.webkitAudioContext;
   var audioContext = new AudioContext();
@@ -36,7 +33,7 @@ __vad.js__ is a small Javascript library for voice activity detection.
     }; 
     
     // Create VAD
-    vad = new VAD(options);
+    var vad = new VAD(options);
   }
 
   // Ask for audio device
